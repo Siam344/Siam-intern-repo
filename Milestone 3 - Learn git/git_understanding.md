@@ -50,3 +50,44 @@ Whenever a bug shows up out of nowhere and you have **no clue** which commit cau
 
 ## 🤔 How does it compare to manually reviewing commits?
 `git bisect` is faster and less painful. Manually reviewing dozens of commits is like searching for a needle in a haystack — `git bisect` gives you a metal detector.
+
+---
+
+# ✨ Reflections on Advanced Git Commands
+
+## 🔍 **What does each command do?**
+
+- **`git checkout main -- <file>`** → Perfect for those "oops" moments when a file breaks, and you just need to reset it without messing with everything else.
+  
+- **`git cherry-pick <commit>`** → Picks one commit (and only one) from another branch and applies it where you need it. Super useful for urgent fixes that shouldn’t wait for a big merge.
+
+- **`git log`** → Lays out the project’s full commit history. Seeing the timeline helps when tracking bugs or understanding how the project evolved.
+
+- **`git blame <file>`** → Not as harsh as it sounds — it simply shows who last edited each line and when. Really useful when debugging or trying to understand why something was changed.
+
+---
+
+## 💡 **When would these be a lifesaver?**
+
+- **`checkout`** — When a file breaks and you want to restore it without rolling back other changes.
+  
+- **`cherry-pick`** — For quick bug fixes that need to go into production ASAP, but you’re not ready to merge the whole feature branch.
+
+- **`log`** — When the project’s been running for months and you need a bird’s-eye view of how it’s changed — or when tracking down the commit that introduced a sneaky bug.
+
+- **`blame`** — During code reviews or debugging sessions, when figuring out who last edited a problematic section of code is crucial.
+
+---
+
+## 😲 **Surprises Along the Way?**
+
+- **`cherry-pick`** was smoother than expected — it felt like copy-pasting a commit from one branch to another.
+  
+- **`blame`** was more fun than it should be. It’s like detective work but for code — seeing the trail of changes and who made them.
+
+- **`log`** got wild with the right flags (`--graph` is a game-changer for messy histories).
+
+---
+
+💡 **Pro Tip:**  
+Once you get the hang of these, dealing with Git becomes way less intimidating. It’s all about control — knowing what’s changed, who changed it, and how to roll with it when things go sideways.
