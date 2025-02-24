@@ -24,3 +24,28 @@ While reviewing an open-source PR, I learned to:
 - Reviewing others' PRs is a great way to learn best practices.
 - Constructive feedback is essential for growth.
 
+
+### ✏️ Writing Meaningful Commit Messages:
+
+**💡 Reflections**
+📌 What makes a good message?
+➡️ Short, clear, and action-oriented.
+
+📌 Why does it matter?
+➡️ It helps team members understand changes quickly and makes debugging easier.
+
+📌 What happens if it’s bad?
+➡️ Confusing commit histories, making collaboration and troubleshooting harder.
+
+# 🐞 Debugging with `git bisect`
+
+# 🧠 Git Understanding
+
+## 🔍 What does `git bisect` do?
+`git bisect` is a command-line tool that helps identify the commit that introduced a bug by using a binary search. It’s like playing detective, but with fewer donuts.
+
+## 🏆 When would you use it in a real-world debugging situation?
+Whenever a bug shows up out of nowhere and you have **no clue** which commit caused it. Instead of manually checking each one (ugh), `git bisect` narrows it down like a pro.
+
+## 🤔 How does it compare to manually reviewing commits?
+`git bisect` is faster and less painful. Manually reviewing dozens of commits is like searching for a needle in a haystack — `git bisect` gives you a metal detector.
