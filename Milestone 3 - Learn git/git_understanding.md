@@ -111,6 +111,7 @@ git add <conflicted_file>
 # Finalize the merge
 git commit -m "Resolved merge conflict"
 
+
 ## 🧠 What Did You Learn?
 - Merge conflicts aren’t as scary as they seem — they just need careful review.
 - It’s crucial to communicate with team members when multiple people work on the same files.
@@ -124,19 +125,21 @@ Always read the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) carefully —
 
 # 🌳 Branching & Team Collaboration Reflections
 
-## ❓ Why is pushing directly to `main` problematic?
+### ❓ Why is pushing directly to `main` problematic?
 - It can introduce bugs or break the project without peer review.
 - Other developers might pull unstable or broken code.
 
-## ✅ How do branches help with reviewing code?
+### ✅ How do branches help with reviewing code?
 - Branches allow for code review and testing before merging.
 - It keeps the main branch clean and functional.
 
-## ❌ What happens if two people edit the same file on different branches?
+### ❌ What happens if two people edit the same file on different branches?
 - It may cause **merge conflicts**.
 - These conflicts need to be resolved before merging.
 
-## 📋 Staging vs. Committing
+---
+
+# 📋 Staging vs. Committing
 
 ### ❓ What is the difference between staging and committing?
 - **Staging** is the process of preparing specific changes for a commit. It allows developers to choose what gets committed, offering control and organization.
@@ -150,3 +153,4 @@ Always read the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) carefully —
 - When working on multiple features or fixes simultaneously and want to commit them separately.
 - When you want to review changes with teammates before making them permanent.
 - When organizing changes into meaningful commits for better project history readability.
+
