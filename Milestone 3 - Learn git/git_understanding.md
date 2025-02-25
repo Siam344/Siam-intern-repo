@@ -91,3 +91,41 @@ Whenever a bug shows up out of nowhere and you have **no clue** which commit cau
 
 💡 **Pro Tip:**  
 Once you get the hang of these, dealing with Git becomes way less intimidating. It’s all about control — knowing what’s changed, who changed it, and how to roll with it when things go sideways.
+
+
+## 🔀 Merge Conflicts & Conflict Resolution
+
+### ❓ What Caused the Conflict?
+The conflict was triggered when changes were made to the same line of code in two different branches — one in the `main` branch and another in the `conflict-branch`. When attempting to merge the two, Git couldn't automatically decide which change to prioritize, leading to the conflict.
+
+---
+
+### ⚡ How Did You Resolve It?
+- Switched to the branch with the conflict.
+- Used the Git Desktop client to view the conflict.
+- Manually reviewed both changes and decided which lines to keep.
+- Marked the conflict as resolved.
+- Committed the changes and pushed them back to GitHub.
+
+_Alternative CLI Method:_
+
+```bash
+# After conflict is detected
+git status
+
+# Open the file, resolve the conflict manually by editing
+# Then add the resolved file
+git add <conflicted_file>
+
+# Finalize the merge
+git commit -m "Resolved merge conflict"
+
+---
+### 🧠 What Did You Learn?
+Merge conflicts aren’t as scary as they seem — they just need careful review.
+It’s crucial to communicate with team members when multiple people work on the same files.
+Using the right tools (like Git Desktop or merge tools) can make the process smoother.
+Regularly pulling updates from the main branch minimizes future conflicts.
+
+💡 **Pro Tip:**  
+ Always read the conflict markers (<<<<<<, ======, >>>>>>) carefully — they guide you through the changes that need attention.
