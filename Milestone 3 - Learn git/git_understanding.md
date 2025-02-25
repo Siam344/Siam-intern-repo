@@ -135,3 +135,18 @@ Always read the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) carefully —
 ## ❌ What happens if two people edit the same file on different branches?
 - It may cause **merge conflicts**.
 - These conflicts need to be resolved before merging.
+
+## 📋 Staging vs. Committing
+
+### ❓ What is the difference between staging and committing?
+- **Staging** is the process of preparing specific changes for a commit. It allows developers to choose what gets committed, offering control and organization.
+- **Committing** is the act of recording those staged changes into the repository’s history.
+
+### 💡 Why does Git separate these two steps?
+- It provides flexibility, allowing developers to review, group, and manage changes before finalizing them.
+- It prevents accidental commits and helps maintain a clean commit history.
+
+### 📅 When would you want to stage changes without committing?
+- When working on multiple features or fixes simultaneously and want to commit them separately.
+- When you want to review changes with teammates before making them permanent.
+- When organizing changes into meaningful commits for better project history readability.
