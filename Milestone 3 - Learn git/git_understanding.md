@@ -110,7 +110,9 @@ git add <conflicted_file>
 
 # Finalize the merge
 git commit -m "Resolved merge conflict"
+```
 
+---
 
 ## 🧠 What Did You Learn?
 - Merge conflicts aren’t as scary as they seem — they just need careful review.
@@ -153,4 +155,3 @@ Always read the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) carefully —
 - When working on multiple features or fixes simultaneously and want to commit them separately.
 - When you want to review changes with teammates before making them permanent.
 - When organizing changes into meaningful commits for better project history readability.
-
