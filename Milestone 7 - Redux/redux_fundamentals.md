@@ -36,5 +36,24 @@ Here are a few practical scenarios where choosing Redux over `useState` makes se
 ### Conclusion
 Choosing between Redux and `useState` depends on the scale of your application, the complexity of the state management required, and the need for advanced features such as middleware integration, debugging, and third-party extensions. For simple applications, `useState` might be sufficient and more straightforward, but Redux offers a robust solution for managing state in larger, more complex applications.
 
-## Redux Visualization
+## 2nd Task
+
+## Why Use Selectors Instead of Directly Accessing State?
+
+### 1️⃣ **Encapsulation & Code Reusability**
+Selectors allow you to **encapsulate** state access logic in one place, making it reusable across multiple components.
+
+### 2️⃣ **Performance Optimization**
+- Selectors **prevent unnecessary re-renders** because React components only re-render if the specific slice of state they depend on changes.
+
+### 3️⃣ **Maintainability & Scalability**
+- If the state structure changes, you **only need to update the selector**, rather than updating multiple components that access the state.
+
+### 4️⃣ **Simplifies Complex Data Extraction**
+- Selectors **make it easier** to extract **computed or derived state** from Redux, reducing logic inside components.
+
+### ✅ **Conclusion**
+Using selectors ensures your code is **efficient, reusable, and scalable** while avoiding unnecessary re-renders.
+
+## Redux Visualization (Final Image!)
 ![Task compliton picture](Intro%20to%20Redux/S.png)
