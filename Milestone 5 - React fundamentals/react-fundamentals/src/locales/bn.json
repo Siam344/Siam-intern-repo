@@ -1,0 +1,16 @@
+{
+    "welcome": "ফোকাস বিয়ার-এ আপনাকে স্বাগতম!",
+    "welcomeMessage": "এটি আপনার ব্যক্তিগত ড্যাশবোর্ড।",
+    "home": "বাড়ি",
+    "counter": "গণনা",
+    "button": "বোতাম",
+    "form": "ফরম",
+    "userList": "ব্যবহারকারীর তালিকা",
+    "dataFetcher": "ডেটা সংগ্রাহক",
+    "expensiveCalculation": "ব্যয়বহুল গণনা",
+    "callback": "কলব্যাক",
+    "calculatedValue": "গণনা মান",
+    "language": "ভাষা",
+    "english": "ইংরেজি",
+    "bengali": "বাংলা"
+}

@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome to Focus Bear!",
+    "welcomeMessage": "This is your personalized dashboard.",
+    "home": "Home",
+    "counter": "Counter",
+    "button": "Button",
+    "form": "Form",
+    "userList": "User List",
+    "dataFetcher": "Data Fetcher",
+    "expensiveCalculation": "Expensive Calculation",
+    "callback": "Callback",
+    "calculatedValue": "Calculated Value",
+    "language": "Language",
+    "english": "English",
+    "bengali": "Bengali"
+}

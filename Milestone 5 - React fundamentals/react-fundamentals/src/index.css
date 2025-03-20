@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  margin: 2px;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px #4f46e5;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+nav a:hover {
+  transform: scale(1.05);
+}
