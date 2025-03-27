@@ -1,0 +1,6 @@
+node_modules/
+coverage/
+.babelrc
+package-lock.json
+package.json
+et-hard-abc123

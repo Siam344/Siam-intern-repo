@@ -1,0 +1,15 @@
+{
+    "name": "intro-to-jest",
+    "version": "1.0.0",
+    "description": "Jest Unit Testing Setup",
+    "scripts": {
+      "test": "jest"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0",
+      "babel-jest": "^29.0.0",
+      "@babel/preset-env": "^7.20.0",
+      "@babel/preset-react": "^7.20.0"
+    }
+  }
+  
